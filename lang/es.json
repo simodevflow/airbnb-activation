@@ -1,0 +1,111 @@
+{
+  "dir": "ltr",
+  "pageTitle": "Convierte Tu Habitación Libre en €1.500/Mes en 72 Horas | Sistema Airbnb",
+  "metaDescription": "Sistema completo de alojamiento Airbnb. De habitación vacía a primera reserva en 72 horas. Plantillas, listas, automatización. Garantía de 30 días.",
+  "bannerText": "🔥 OFERTA LIMITADA: Los primeros 50 compradores obtienen acceso instantáneo + materiales extra",
+  "kicker": "⚡ El Sistema de 72 Horas",
+  "headline": "Convierte Tu Habitación Libre en<br><span class=\"highlight\">€1.500/Mes</span><br>Este Fin de Semana",
+  "subtitle": "El sistema completo paso a paso para lanzar tu Airbnb, obtener tu primera reserva y automatizar el 90% del alojamiento. No se requiere experiencia.",
+  "statLabel1": "Hasta Primera Reserva",
+  "statLabel2": "Inversión Única",
+  "statLabel3": "Potencial Mensual",
+  "ctaText": "Obtener Acceso Instantáneo",
+
+  "sectionTitle1": "Tienes Una Habitación Vacía.<br>Y Cuatro Miedos Que La Mantienen Vacía.",
+  "problemTitle1": "\"¿Y si los huéspedes destruyen mi casa?\"",
+  "problemDesc1": "Has leído las historias de terror. Fiestas. Daños. Desastres. Así que no haces nada mientras tu vecino gana €2.100/mes con SU habitación libre.",
+  "problemTitle2": "\"No tengo tiempo para gestionar esto\"",
+  "problemDesc2": "Entre el trabajo, la vida y todo lo demás, la idea de coordinar registros, limpieza y mensajes de huéspedes suena agotadora.",
+  "problemTitle3": "\"Configurar Airbnb parece complicado\"",
+  "problemDesc3": "Has mirado el creador de anuncios de Airbnb. Parálisis de página en blanco. ¿Qué escribir? ¿Qué fotos tomar? Cierras la pestaña.",
+  "problemTitle4": "\"¿Qué pasa con las malas reseñas?\"",
+  "problemDesc4": "Una mala reseña podría hundir tu anuncio antes de que comience. Así que esperas la configuración \"perfecta\" que nunca llega.",
+
+  "testimonialsTitle": "Resultados Reales de Personas Reales",
+  "testimonial1": "Compré este kit el martes pasado. El anuncio se publicó el jueves. Primera reserva el viernes (€340 por 5 noches). Ya se pagó solo.",
+  "testimonialResult1": "€340 en primera semana",
+  "testimonial2": "€297 parecía mucho pero mi anuncio se publicó el martes y obtuve mi primera reserva el jueves (€420).",
+  "testimonialResult2": "€760 después de una semana",
+  "testimonial3": "Compré un curso de €49 antes - 6 horas de videos, nunca comencé. Este kit son solo plantillas y listas. Anuncio en línea en 2 días. Acciones > teoría.",
+  "testimonialResult3": "En línea en 2 días",
+  "testimonial4": "Madre soltera, sin dinero, dos empleos. Primer mes: €1.400. Eso es mi pago de coche y comestibles. Primera vez en 3 años que no estoy estresada. Cambió mi vida.",
+  "testimonialResult4": "€1.400 primer mes",
+  "testimonial5": "Tenía miedo de huéspedes malos. La sección de screening + reglas de casa son oro puro. 7 huéspedes, cero problemas. Mi miedo me impedía ganar €1.200+/mes sin razón.",
+  "testimonialResult5": "7 huéspedes, cero problemas",
+  "testimonial6": "Trabajo 60 horas/semana. La automatización es loca - mensajes automáticos, auto check-in, código de caja. Paso 90 min/semana y gano €1.540/mes.",
+  "testimonialResult6": "€1.540/mes, 90min/semana",
+
+  "costWarningTitle": "Mientras tanto, Tu Habitación Vacía Te Cuesta €18,000/Año",
+  "costWarningDesc": "€1.500/mes × 12 meses = €18,000 que dejas en la mesa.<br>Cada mes que esperas = €1.500 perdido para siempre.",
+
+  "solutionTitle": "El Sistema de Activación Airbnb de 72 Horas",
+  "solutionSubtitle": "Olvida la teoría. Aquí está la checklist que te lleva a tu primera reserva en un fin de semana.",
+
+  "day1Title": "Día 1: Prepara tu espacio",
+  "day1Sub": "2-3 horas totales",
+  "day1List": ["Lista de verificación de preparación de habitación (30 puntos)","Lista de compras IKEA/Amazon €150 (enlaces exactos)","5 reglas de casa que previenen el 95% de problemas","Guía de fotografía con teléfono (15 fotos imprescindibles)"],
+
+  "day2Title": "Día 2: Crea tu anuncio",
+  "day2Sub": "90 minutos de configuración",
+  "day2List": ["8 plantillas de título de anuncio probadas","3 descripciones para completar","Calculadora de precios para tu ciudad","Sube fotos, publica y lanza"],
+
+  "day3Title": "Día 3: Automatiza y obtiene reservas",
+  "day3Sub": "Configura una vez, olvídate",
+  "day3List": ["6 plantillas de mensaje para copiar y pegar","Configuración de respuesta automática","Configuración de auto-check-in (guía de caja)","Detector de banderas rojas (7 puntos)","Sistema de generación de reseñas de 5 estrellas"],
+  "solutionCta": "Sí, quiero el sistema de 72 horas →",
+
+  "pricingTitle": "Obtén Acceso Instantáneo",
+  "priceOld": "€497",
+  "priceCurrent": "€297",
+  "priceLabel": "Pago único. Descarga instantánea.",
+  "valueStack": [
+    { "name": "✓ Sistema Completo de 72 Horas (PDF 20 páginas)", "price": "€197" },
+    { "name": "✓ Lista de Preparación de Habitación (30 puntos)", "price": "€47" },
+    { "name": "✓ Lista de Compras €150 (enlaces exactos)", "price": "€27" },
+    { "name": "✓ 8 Plantillas de Título de Anuncio", "price": "€37" },
+    { "name": "✓ 6 Plantillas de Mensaje para Copiar-Pegar", "price": "€57" },
+    { "name": "✓ Guía de Configuración de Automatización", "price": "€67" },
+    { "name": "✓ Sistema de Screening de Huéspedes", "price": "€47" },
+    { "name": "✓ Protocolo de Reseñas de 5 Estrellas", "price": "€37" },
+    { "name": "VALOR TOTAL:", "price": "€516" }
+  ],
+  "pricingCta": "Obtener Acceso - €297 →",
+  "guaranteeTitle": "🛡️ Garantía de devolución 30 días",
+  "guaranteeText": "Usa el sistema 30 días. Si no obtienes tu primera reserva, solicita un reembolso completo. Cero riesgo. Todo ganancia.",
+  "countdownNote": "⚡ Solo 23 plazas restantes a este precio. El precio aumentará a €497 después de los primeros 50 compradores.",
+
+  "faqTitle": "Preguntas Frecuentes",
+  "faq": [
+    { "q": "¿Qué tan rápido obtendré mi primera reserva?", "a": "La mayoría de nuevos hosts obtienen su primera reserva en 1-7 días. El kit te muestra cómo optimizar para reservas rápidas (estrategia de precios, configuración Instant Book). Un comprador obtuvo su primera reserva en 34 horas." },
+    { "q": "¿Y si alquilo el piso - puedo hacer esto?", "a": "¡Sí! El kit incluye un script para pedir permiso al propietario. Muchos dirán que sí, especialmente si ofreces compartir ingresos (80/20 o 70/30)." },
+    { "q": "¿Y si alguien daña mis cosas?", "a": "Airbnb tiene una garantía de €1M de daños. Documenta con fotos, reporta inmediatamente y presenta un reclamo. El kit muestra cómo a prueba de huéspedes tu espacio." },
+    { "q": "¿Es esto un curso con videos?", "a": "No. Es un PDF de 20 páginas con listas, plantillas y scripts copy-paste. Puedes leerlo en 30 minutos y tener tu anuncio en línea el fin de semana." },
+    { "q": "¿Puedo realmente ganar €1.500-3.000/mes?", "a": "Sí, si estás en una buena ubicación. Habitación a €50/noche × 20 noches = €1.000/mes. 1BR a €80/noche × 20 noches = €1.600/mes. 2BR a €120/noche × 20 noches = €2.400/mes." },
+    { "q": "No soy experto en tecnología - ¿es demasiado complicado?", "a": "Si puedes enviar un mensaje de texto, puedes hacer esto. Todo son plantillas copy-paste y capturas de pantalla paso a paso. Diseñado para personas sin conocimientos técnicos." }
+  ],
+
+  "finalCtaTitle": "Tu Habitación Vacía Te Cuesta €18,000/Año",
+  "finalCtaSub": "Cada mes que esperas = €1,500 perdido. El kit cuesta €297.",
+  "finalCtaButton": "Obtén Acceso - €297 →",
+  "finalCtaNote": "Garantía 30 días | Descarga instantánea",
+  "stickyCta": "Obtener Acceso Instantáneo",
+
+  "antiScamTitle": "Este Sistema NO Es Para",
+  "antiScamSubtitle": "Honestidad primero. Este sistema no funciona para todos. Aquí está quién NO debería comprarlo:",
+  "antiScamItem1Title": "❌ Buscando Ingresos Pasivos Sin Trabajo",
+  "antiScamItem1Desc": "Este sistema requiere esfuerzo: configuración, fotos, mensajes, gestión de huéspedes. Si quieres dinero sin hacer nada—esto no es para ti.",
+  "antiScamItem2Title": "❌ Buscando Una Garantía",
+  "antiScamItem2Desc": "No podemos garantizar ganancias. Tu ubicación, calidad de la habitación, competencia local, tarifas del mercado y esfuerzo determinan tus resultados.",
+  "antiScamItem3Title": "❌ En Un Mercado Donde Los Alquileres a Corto Plazo Son Ilegales",
+  "antiScamItem3Desc": "Algunas ciudades han prohibido Airbnb o requieren permisos. Verifica las leyes locales primero. No somos abogados.",
+  "antiScamItem4Title": "❌ No Dispuesto a Preparar Correctamente Tu Habitación",
+  "antiScamItem4Desc": "Si no estás dispuesto a limpiar, invertir en muebles/ropa de cama, tomar buenas fotos, o responder a los huéspedes—ahorra tu dinero.",
+
+  "footerLine1": "© 2025 Airbnb Activation Kit. Todos los derechos reservados.",
+  "footerLinks": [
+    { "label": "Política de Privacidad", "href": "#" },
+    { "label": "Términos de Servicio", "href": "#" },
+    { "label": "Contacto", "href": "#" }
+  ],
+  "footerDisclaimer": "Aviso: Los resultados varían. Las ganancias dependen de ubicación, calidad de habitación y esfuerzo. No podemos garantizar cantidades específicas de ingresos."
+}

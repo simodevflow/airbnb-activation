@@ -1,0 +1,111 @@
+{
+  "dir": "ltr",
+  "pageTitle": "Transformez Votre Chambre en €1,500/Mois en 72 Heures | Système Airbnb",
+  "metaDescription": "Système complet d'hébergement Airbnb. De chambre vide à première réservation en 72 heures. Modèles, listes, automation. Garantie 30 jours.",
+  "bannerText": "🔥 OFFRE LIMITÉE: Les 50 premiers acheteurs obtiennent un accès instantané + matériaux bonus",
+  "kicker": "⚡ Le Système de 72 Heures",
+  "headline": "Transformez Votre Chambre Libre en<br><span class=\"highlight\">€1,500/Mois</span><br>Ce Weekend",
+  "subtitle": "Le système complet étape par étape pour lancer votre Airbnb, obtenir votre première réservation et automatiser 90% de l'hébergement. Aucune expérience requise.",
+  "statLabel1": "Jusqu'à Première Réservation",
+  "statLabel2": "Investissement Unique",
+  "statLabel3": "Potentiel Mensuel",
+  "ctaText": "Obtenir L'Accès Instantané",
+
+  "sectionTitle1": "Vous Avez Une Chambre Vide.<br>Et Quatre Peurs Qui La Gardent Vide.",
+  "problemTitle1": "\"Et si les invités détruisent ma maison?\"",
+  "problemDesc1": "Vous avez lu les histoires d'horreur. Fêtes. Dégâts. Désastres. Alors vous ne faites rien pendant que votre voisin gagne €2,100/mois.",
+  "problemTitle2": "\"Je n'ai pas le temps de gérer ça\"",
+  "problemDesc2": "Entre le travail, la vie et tout le reste, l'idée de coordonner les arrivées, le ménage et les messages des invités semble épuisante.",
+  "problemTitle3": "\"Configurer Airbnb semble compliqué\"",
+  "problemDesc3": "Vous avez regardé le créateur d'annonces d'Airbnb. Paralysie de la page blanche. Que écrire? Quelles photos prendre? Vous fermez l'onglet.",
+  "problemTitle4": "\"Et les mauvais avis?\"",
+  "problemDesc4": "Un mauvais avis pourrait couler votre annonce avant même qu'elle ne commence. Alors vous attendez la configuration 'parfaite'.",
+
+  "testimonialsTitle": "Résultats Réels de Vraies Personnes",
+  "testimonial1": "J'ai acheté ce kit mardi dernier. L'annonce est passée en direct jeudi. Première réservation vendredi (€340 pour 5 nuits). Déjà rentabilisé.",
+  "testimonialResult1": "€340 la première semaine",
+  "testimonial2": "€297 semblait beaucoup mais mon annonce est passée en direct mardi et j'ai eu ma première réservation jeudi (€420).",
+  "testimonialResult2": "€760 après une semaine",
+  "testimonial3": "J'ai acheté un cours €49 avant - 6 heures de vidéos, jamais commencé. Ce kit est juste des modèles et des listes. Annonce en ligne en 2 jours. Actions > théorie.",
+  "testimonialResult3": "En ligne en 2 jours",
+  "testimonial4": "Mère célibataire, fauchée, deux emplois. Premier mois: €1,400. C'est mon paiement de voiture et mes courses. Première fois en 3 ans que je ne suis pas stressée. C'est un changement de vie.",
+  "testimonialResult4": "€1,400 premier mois",
+  "testimonial5": "J'avais peur des mauvais clients. La section de dépistage + les règles de maison sont en or. 7 clients, zéro problème. Ma peur m'empêchait de faire €1,200+/mois pour rien.",
+  "testimonialResult5": "7 clients, zéro problème",
+  "testimonial6": "Je travaille 60 heures/semaine. L'automatisation est folle - messages automatiques, self-check-in, code de verrouillage. Je passe 90 min/semaine et je gagne €1,540/mois.",
+  "testimonialResult6": "€1,540/mois, 90min/semaine",
+
+  "costWarningTitle": "Pendant ce temps, Votre Chambre Vide Vous Coûte €18,000/An",
+  "costWarningDesc": "€1,500/mois × 12 mois = €18,000 que vous laissez sur la table.<br>Chaque mois d'attente = €1,500 perdu à jamais.",
+
+  "solutionTitle": "Le Système d'Activation Airbnb en 72 Heures",
+  "solutionSubtitle": "Oubliez la théorie. Voici la checklist qui vous amène à votre première réservation en un week-end.",
+
+  "day1Title": "Jour 1: Préparez votre espace",
+  "day1Sub": "2-3 heures",
+  "day1List": ["Liste de contrôle de préparation de chambre (30 points)","Liste de shopping IKEA/Amazon (€150, liens exacts)","5 règles de maison qui préviennent 95% des problèmes","Guide de photographie avec téléphone (15 photos essentielles)"],
+
+  "day2Title": "Jour 2: Créez votre annonce",
+  "day2Sub": "90 minutes",
+  "day2List": ["8 modèles de titre d'annonce éprouvés","3 descriptions à remplir","Calculatrice de tarification pour votre ville","Téléchargez les photos, publiez et lancez"],
+
+  "day3Title": "Jour 3: Automatisez et obtenez des réservations",
+  "day3Sub": "Configurez une fois, oubliez",
+  "day3List": ["6 modèles de message à copier-coller","Configuration des réponses automatiques","Configuration de l'auto-check-in (guide boîte de serrure)","Détecteur de drapeaux rouges (7 points)","Système de génération d'avis 5 étoiles"],
+  "solutionCta": "Oui, je veux le système de 72 heures →",
+
+  "pricingTitle": "Obtenez l'Accès Instantané",
+  "priceOld": "€497",
+  "priceCurrent": "€297",
+  "priceLabel": "Paiement unique. Téléchargement instantané.",
+  "valueStack": [
+    { "name": "✓ Système Complet de 72 Heures (PDF 20 pages)", "price": "€197" },
+    { "name": "✓ Liste de Préparation de Chambre (30 points)", "price": "€47" },
+    { "name": "✓ Liste de Shopping €150 (liens exacts)", "price": "€27" },
+    { "name": "✓ 8 Modèles de Titre d'Annonce", "price": "€37" },
+    { "name": "✓ 6 Modèles de Message Prêts à Copier-Coller", "price": "€57" },
+    { "name": "✓ Guide de Configuration d'Automatisation", "price": "€67" },
+    { "name": "✓ Système de Dépistage des Invités", "price": "€47" },
+    { "name": "✓ Protocole d'Avis 5 Étoiles", "price": "€37" },
+    { "name": "VALEUR TOTALE:", "price": "€516" }
+  ],
+  "pricingCta": "Obtenir l'Accès - €297 →",
+  "guaranteeTitle": "🛡️ Garantie Remboursement 30 Jours",
+  "guaranteeText": "Utilisez le système 30 jours. Si vous n'obtenez pas votre première réservation, demandez un remboursement complet. Zéro risque. Tout bénéfice.",
+  "countdownNote": "⚡ Seulement 23 places restantes à ce prix. Le prix augmentera à €497 après les 50 premiers achats.",
+
+  "faqTitle": "Foire Aux Questions",
+  "faq": [
+    { "q": "À quelle vitesse obtiendrai-je ma première réservation?", "a": "La plupart des nouveaux hôtes obtiennent leur première réservation dans les 1-7 jours. Le kit vous montre comment optimiser pour des réservations rapides (stratégie de tarification, paramètres Instant Book). Un acheteur a obtenu sa première réservation en 34 heures." },
+    { "q": "Et si je loue l'appartement - puis-je faire ça?", "a": "Oui! Le kit inclut un script pour demander la permission au propriétaire. Beaucoup diront oui, surtout si vous proposez de partager les revenus (80/20 ou 70/30)." },
+    { "q": "Et si quelqu'un endommage mes affaires?", "a": "Airbnb a une garantie de €1M. Documentez avec des photos, signalez immédiatement et déposez une réclamation. Le kit montre comment rendre votre espace à l'épreuve des invités." },
+    { "q": "Est-ce un cours avec des vidéos?", "a": "Non. C'est un PDF de 20 pages avec listes, modèles et scripts prêts à copier-coller. Vous pouvez tout lire en 30 minutes et avoir votre annonce en ligne le week-end." },
+    { "q": "Puis-je vraiment gagner €1,500-3,000/mois?", "a": "Oui, si vous êtes dans un bon endroit. Chambre à €50/nuit × 20 nuits = €1,000/mois. 1BR à €80/nuit × 20 nuits = €1,600/mois. 2BR à €120/nuit × 20 nuits = €2,400/mois." },
+    { "q": "Je ne suis pas technophile - est-ce trop compliqué?", "a": "Si vous pouvez envoyer un SMS, vous pouvez faire ça. Tout est des modèles à copier-coller et des captures d'écran étape par étape. Conçu pour les non-techniciens." }
+  ],
+
+  "finalCtaTitle": "Votre Chambre Vide Vous Coûte €18,000/An",
+  "finalCtaSub": "Chaque mois d'attente = €1,500 perdu. Le kit coûte €297. Vous le rentabiliserez en semaine 1.",
+  "finalCtaButton": "Obtenir l'Accès - €297 →",
+  "finalCtaNote": "Garantie 30 jours | Téléchargement instantané",
+  "stickyCta": "Obtenir L'Accès Instantané",
+
+  "antiScamTitle": "Ce Système N'Est PAS Fait Pour",
+  "antiScamSubtitle": "Honnêteté d'abord. Ce système ne fonctionne pas pour tout le monde. Voici qui ne devrait PAS l'acheter :",
+  "antiScamItem1Title": "❌ À La Recherche D'un Revenu Passif Sans Effort",
+  "antiScamItem1Desc": "Ce système demande de l'effort : mise en place, photos, messages, gestion des clients. Si vous voulez de l'argent sans rien faire—ce n'est pas pour vous.",
+  "antiScamItem2Title": "❌ À La Recherche D'une Garantie",
+  "antiScamItem2Desc": "Nous ne pouvons pas garantir les revenus. Votre localisation, la qualité de la chambre, la concurrence locale, les tarifs du marché, et votre effort déterminent vos résultats.",
+  "antiScamItem3Title": "❌ Dans Un Marché Où Les Locations À Court Terme Sont Illégales",
+  "antiScamItem3Desc": "Certaines villes ont interdit Airbnb ou exigent des permis. Vérifiez les lois locales d'abord. Nous ne sommes pas avocats.",
+  "antiScamItem4Title": "❌ Pas Disposé À Préparer Correctement Votre Chambre",
+  "antiScamItem4Desc": "Si vous n'êtes pas disposé à nettoyer, investir dans les meubles/draps, prendre de bonnes photos, ou répondre aux clients—économisez votre argent.",
+
+  "footerLine1": "© 2025 Airbnb Activation Kit. Tous droits réservés.",
+  "footerLinks": [
+    { "label": "Politique de Confidentialité", "href": "#" },
+    { "label": "Conditions d'Utilisation", "href": "#" },
+    { "label": "Contact", "href": "#" }
+  ],
+  "footerDisclaimer": "Avertissement: Les résultats varient. Les gains dépendent de la localisation, de la qualité de la chambre et de l'effort. Nous ne pouvons pas garantir des revenus spécifiques."
+}

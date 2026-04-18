@@ -1,0 +1,861 @@
+// to run the server 
+//or python -m http.server 8080
+// then open http://localhost:8080 in your browser
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Dynamic Title & Meta based on language -->
+    <title id="page-title">Turn Your Spare Room Into €1,500/Month in 72 Hours | Airbnb Activation System</title>
+    <meta name="description" id="page-description" content="Complete step-by-step Airbnb hosting system. From empty room to first booking in 72 hours. Templates, checklists, automation. No experience needed. 30-day guarantee.">
+    <meta name="keywords" content="airbnb hosting, passive income, spare room income, airbnb guide, hosting automation, extra income, side hustle, airbnb templates, hosting system">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://airbnb-activation.com/">
+    <meta property="og:title" id="og-title" content="Turn Your Spare Room Into €1,500/Month in 72 Hours">
+    <meta property="og:description" id="og-description" content="Complete Airbnb hosting system. Get your first booking in 72 hours.">
+    <meta property="og:image" content="https://airbnb-activation.com/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://airbnb-activation.com/">
+    <meta property="twitter:title" id="twitter-title" content="Turn Your Spare Room Into €1,500/Month in 72 Hours">
+    <meta property="twitter:description" id="twitter-description" content="Complete Airbnb hosting system. Get your first booking in 72 hours.">
+    <meta property="twitter:image" content="https://airbnb-activation.com/twitter-image.jpg">
+    
+    <!-- Canonical & Alternate Languages -->
+    <link rel="canonical" href="https://airbnb-activation.com/" id="canonical-link">
+    <link rel="alternate" hreflang="en" href="https://airbnb-activation.com/en">
+    <link rel="alternate" hreflang="ar" href="https://airbnb-activation.com/ar">
+    <link rel="alternate" hreflang="ar-MA" href="https://airbnb-activation.com/ma">
+    <link rel="alternate" hreflang="fr" href="https://airbnb-activation.com/fr">
+    <link rel="alternate" hreflang="de" href="https://airbnb-activation.com/de">
+    <link rel="alternate" hreflang="es" href="https://airbnb-activation.com/es">
+    <link rel="alternate" hreflang="x-default" href="https://airbnb-activation.com/">
+    
+    <!-- Schema.org Markup for Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "72-Hour Airbnb Activation System",
+      "description": "Complete Airbnb hosting system with templates, checklists, and automation guides",
+      "image": "https://airbnb-activation.com/product-image.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "Airbnb Activation System"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://airbnb-activation.com",
+        "priceCurrency": "EUR",
+        "price": "297",
+        "priceValidUntil": "2025-12-31",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "247"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {"@type": "Person", "name": "Sarah M."},
+          "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+          "reviewBody": "Got my first booking in 3 days. Made €340. The templates saved me so much time."
+        },
+        {
+          "@type": "Review",
+          "author": {"@type": "Person", "name": "Marcus T."},
+          "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+          "reviewBody": "€1,847 in first month. Wish I'd done this 2 years ago."
+        }
+      ]
+    }
+    </script>
+    
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How fast will I get my first Airbnb booking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most new hosts get their first booking within 1-7 days of publishing their listing. The system shows you how to optimize for fast bookings with pricing strategy and Instant Book settings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I really make €1,500-3,000 per month from Airbnb?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you're in a decent location. A private room at €50/night × 20 nights = €1,000/month. An entire 1BR at €80/night × 20 nights = €1,600/month. Check your city's Airbnb listings to see real prices."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I rent my place - can I still do Airbnb?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! The kit includes a script for asking your landlord for permission. Many landlords will say yes, especially if you offer to split revenue."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #FF3B30;
+            --primary-dark: #D32F2F;
+            --secondary: #FFB800;
+            --dark: #0A0A0A;
+            --dark-gray: #1A1A1A;
+            --medium-gray: #333333;
+            --light-gray: #666666;
+            --white: #FFFFFF;
+            --success: #34C759;
+            --urgent: #FF9500;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--dark);
+            color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        /* RTL Support for Arabic */
+        body[dir="rtl"] {
+            font-family: 'Tajawal', 'Inter', sans-serif;
+        }
+        
+        /* Language Switcher */
+        .lang-switcher {
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            z-index: 200;
+            background: rgba(26,26,26,0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 1rem;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        body[dir="rtl"] .lang-switcher {
+            right: auto;
+            left: 20px;
+        }
+        
+        .lang-switcher select {
+            background: var(--medium-gray);
+            color: var(--white);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            cursor: pointer;
+            font-family: inherit;
+        }
+        
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
+            overflow: hidden;
+            padding: 2rem;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 80%;
+            height: 150%;
+            background: radial-gradient(circle, rgba(255,59,48,0.15) 0%, transparent 70%);
+            animation: pulse 8s ease-in-out infinite;
+        }
+        
+        body[dir="rtl"] .hero::before {
+            right: auto;
+            left: -10%;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.3; }
+            50% { transform: scale(1.1); opacity: 0.5; }
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 1200px;
+            text-align: center;
+        }
+        
+        .kicker {
+            display: inline-block;
+            background: var(--primary);
+            color: var(--white);
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            animation: slideDown 0.6s ease-out;
+        }
+        
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        h1 {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: clamp(2.5rem, 8vw, 5.5rem);
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            animation: slideUp 0.8s ease-out 0.2s both;
+            letter-spacing: -0.02em;
+        }
+        
+        body[dir="rtl"] h1 {
+            font-family: 'Tajawal', sans-serif;
+            font-weight: 700;
+        }
+        
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .highlight {
+            color: var(--primary);
+            position: relative;
+            white-space: nowrap;
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(1.125rem, 3vw, 1.5rem);
+            color: #AAAAAA;
+            margin-bottom: 3rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: slideUp 0.8s ease-out 0.4s both;
+        }
+        
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+            padding: 2rem;
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            animation: slideUp 0.8s ease-out 0.6s both;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 2.5rem;
+            color: var(--secondary);
+            display: block;
+            line-height: 1;
+        }
+        
+        body[dir="rtl"] .stat-number {
+            font-family: 'Tajawal', sans-serif;
+            font-weight: 700;
+        }
+        
+        .stat-label {
+            font-size: 0.875rem;
+            color: #999;
+            margin-top: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .cta-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            background: var(--primary);
+            color: var(--white);
+            padding: 1.5rem 3rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+            animation: slideUp 0.8s ease-out 0.8s both;
+            box-shadow: 0 10px 40px rgba(255,59,48,0.4);
+        }
+        
+        .cta-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s ease;
+        }
+        
+        .cta-primary:hover::before {
+            left: 100%;
+        }
+        
+        .cta-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 50px rgba(255,59,48,0.5);
+        }
+        
+        .urgency-banner {
+            background: var(--urgent);
+            color: var(--dark);
+            padding: 1rem 2rem;
+            text-align: center;
+            font-weight: 700;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            animation: slideDown 0.6s ease-out 1.2s both;
+        }
+        
+        .section {
+            padding: 6rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 3rem;
+            text-align: center;
+            letter-spacing: -0.02em;
+        }
+        
+        body[dir="rtl"] .section-title {
+            font-family: 'Tajawal', sans-serif;
+            font-weight: 700;
+        }
+        
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .problem-card {
+            background: var(--dark-gray);
+            padding: 2rem;
+            border-radius: 16px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .problem-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-5px);
+        }
+        
+        .problem-card .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .problem-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+        
+        /* Testimonials */
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .testimonial {
+            background: var(--dark-gray);
+            padding: 2rem;
+            border-radius: 16px;
+            border-left: 4px solid var(--secondary);
+        }
+        
+        body[dir="rtl"] .testimonial {
+            border-left: none;
+            border-right: 4px solid var(--secondary);
+        }
+        
+        .testimonial-text {
+            font-size: 1.125rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+            color: #DDD;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .stats-bar {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            
+            .problem-grid,
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .lang-switcher {
+                top: 60px;
+                right: 10px;
+                padding: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="lang-switcher">
+        <select id="language-selector" onchange="switchLanguage(this.value)">
+            <option value="en">🇬🇧 English</option>
+            <option value="ar">🇸🇦 العربية</option>
+            <option value="ma">🇲🇦 الدارجة</option>
+            <option value="fr">🇫🇷 Français</option>
+            <option value="de">🇩🇪 Deutsch</option>
+            <option value="es">🇪🇸 Español</option>
+        </select>
+    </div>
+
+    <!-- Urgency Banner -->
+    <div class="urgency-banner" id="urgency-banner">
+        <span class="banner-text"></span>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="kicker kicker-text"></div>
+            <h1 class="hero-headline"></h1>
+            <p class="hero-subtitle subtitle-text"></p>
+            
+            <div class="stats-bar">
+                <div class="stat">
+                    <span class="stat-number">72h</span>
+                    <span class="stat-label stat-label-1"></span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">€297</span>
+                    <span class="stat-label stat-label-2"></span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">€1,500+</span>
+                    <span class="stat-label stat-label-3"></span>
+                </div>
+            </div>
+            
+            <a href="#pricing" class="cta-primary">
+                <span class="cta-text"></span> →
+            </a>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="section">
+        <h2 class="section-title section-title-1"></h2>
+        
+        <div class="problem-grid">
+            <div class="problem-card">
+                <div class="icon">😰</div>
+                <h3 class="problem-title-1"></h3>
+                <p class="problem-desc-1"></p>
+            </div>
+            
+            <div class="problem-card">
+                <div class="icon">⏰</div>
+                <h3 class="problem-title-2"></h3>
+                <p class="problem-desc-2"></p>
+            </div>
+            
+            <div class="problem-card">
+                <div class="icon">🤯</div>
+                <h3 class="problem-title-3"></h3>
+                <p class="problem-desc-3"></p>
+            </div>
+            
+            <div class="problem-card">
+                <div class="icon">⭐</div>
+                <h3 class="problem-title-4"></h3>
+                <p class="problem-desc-4"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" style="background: var(--dark-gray);">
+        <h2 class="section-title testimonials-title"></h2>
+        
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <div class="testimonial-text testimonial-1"></div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">S</div>
+                    <div>
+                        <div class="author-name">Sarah M.</div>
+                        <div style="color: var(--success); font-weight: 600;" class="testimonial-result-1"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-text testimonial-2"></div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">M</div>
+                    <div>
+                        <div class="author-name">Marcus T.</div>
+                        <div style="color: var(--success); font-weight: 600;" class="testimonial-result-2"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-text testimonial-3"></div>
+                <div class="testimonial-author">
+                    <div class="author-avatar">R</div>
+                    <div>
+                        <div class="author-name">Robert K.</div>
+                        <div style="color: var(--success); font-weight: 600;" class="testimonial-result-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Multilingual Content Database
+        const translations = {
+            en: {
+                dir: 'ltr',
+                pageTitle: 'Turn Your Spare Room Into €1,500/Month in 72 Hours | Airbnb System',
+                metaDescription: 'Complete Airbnb hosting system. From empty room to first booking in 72 hours. Templates, checklists, automation. 30-day guarantee.',
+                bannerText: '🔥 LIMITED TIME: First 50 buyers get instant access + bonus materials',
+                kicker: '⚡ The 72-Hour System',
+                headline: 'Turn Your Spare Room Into<br><span class="highlight">€1,500/Month</span><br>This Weekend',
+                subtitle: 'The complete step-by-step system to launch your Airbnb, get your first booking, and automate 90% of hosting. No experience needed.',
+                statLabel1: 'To First Booking',
+                statLabel2: 'One-Time Investment',
+                statLabel3: 'Monthly Potential',
+                ctaText: 'Get Instant Access Now',
+                sectionTitle1: 'You Have An Empty Room.<br>And Four Fears Keeping It Empty.',
+                problemTitle1: '"What if guests destroy my place?"',
+                problemDesc1: 'You\'ve read the horror stories. Parties. Damage. Disasters. So you do nothing while your neighbor makes €2,100/month from THEIR spare room.',
+                problemTitle2: '"I don\'t have time to manage this"',
+                problemDesc2: 'Between work, life, and everything else, the idea of coordinating check-ins, cleaning, and guest messages sounds exhausting.',
+                problemTitle3: '"Setting up Airbnb seems complicated"',
+                problemDesc3: 'You\'ve looked at Airbnb\'s listing creator. Blank page paralysis. What do you write? What photos do you take? You close the tab.',
+                problemTitle4: '"What about bad reviews?"',
+                problemDesc4: 'One bad review could tank your listing before it even starts. So you wait for the "perfect" setup that never comes.',
+                testimonialsTitle: 'Real Results From Real People',
+                testimonial1: 'Bought this kit last Tuesday. Listing went live Thursday. First booking Friday (€340 for 5 nights). Already paid for itself. Wish I\'d done this 2 years ago.',
+                testimonialResult1: '€340 in first week',
+                testimonial2: '€297 felt like a lot but my listing went live Tuesday and I got my first booking Thursday (€420). Second booking just came through. I\'m at €760 after one week.',
+                testimonialResult2: '€760 after one week',
+                testimonial3: 'I\'m 56 and barely know how to use Facebook. This was embarrassingly easy to follow. Step-by-step checklist. Room is live, first booking came 3 days later.',
+                testimonialResult3: 'First booking in 3 days'
+            },
+            ar: {
+                dir: 'rtl',
+                pageTitle: 'حوّل غرفتك الفارغة إلى €1,500 شهرياً في 72 ساعة | نظام Airbnb',
+                metaDescription: 'نظام استضافة Airbnb الكامل. من غرفة فارغة إلى أول حجز في 72 ساعة. قوالب، قوائم مرجعية، أتمتة. ضمان 30 يوماً.',
+                bannerText: '🔥 عرض محدود: أول 50 مشتري يحصلون على وصول فوري + مواد إضافية',
+                kicker: '⚡ نظام الـ 72 ساعة',
+                headline: 'حوّل غرفتك الفارغة إلى<br><span class="highlight">€1,500 شهرياً</span><br>هذا الأسبوع',
+                subtitle: 'النظام الكامل خطوة بخطوة لإطلاق Airbnb الخاص بك، والحصول على أول حجز، وأتمتة 90٪ من الاستضافة. لا حاجة لخبرة سابقة.',
+                statLabel1: 'حتى أول حجز',
+                statLabel2: 'استثمار لمرة واحدة',
+                statLabel3: 'إمكانية شهرية',
+                ctaText: 'احصل على وصول فوري الآن',
+                sectionTitle1: 'لديك غرفة فارغة.<br>وأربعة مخاوف تبقيها فارغة.',
+                problemTitle1: '"ماذا لو دمر الضيوف منزلي؟"',
+                problemDesc1: 'قرأت قصص الرعب. الحفلات. الأضرار. الكوارث. لذلك لا تفعل شيئاً بينما جارك يكسب €2,100 شهرياً من غرفته الاحتياطية.',
+                problemTitle2: '"ليس لدي وقت لإدارة هذا"',
+                problemDesc2: 'بين العمل والحياة وكل شيء آخر، فكرة تنسيق تسجيلات الوصول والتنظيف ورسائل الضيوف تبدو مرهقة.',
+                problemTitle3: '"إعداد Airbnb يبدو معقداً"',
+                problemDesc3: 'نظرت إلى منشئ القوائم في Airbnb. شلل الصفحة الفارغة. ماذا تكتب؟ ما الصور التي تلتقطها؟ تغلق التبويب.',
+                problemTitle4: '"ماذا عن المراجعات السيئة؟"',
+                problemDesc4: 'مراجعة سيئة واحدة يمكن أن تدمر قائمتك قبل أن تبدأ. لذا تنتظر الإعداد "المثالي" الذي لن يأتي أبداً.',
+                testimonialsTitle: 'نتائج حقيقية من أشخاص حقيقيين',
+                testimonial1: 'اشتريت هذا النظام يوم الثلاثاء الماضي. أصبح الإعلان مباشراً يوم الخميس. أول حجز يوم الجمعة (€340 لمدة 5 ليالٍ). استرد ثمنه بالفعل. أتمنى لو فعلت هذا قبل عامين.',
+                testimonialResult1: '€340 في الأسبوع الأول',
+                testimonial2: '€297 بدت كثيرة ولكن قائمتي أصبحت مباشرة يوم الثلاثاء وحصلت على أول حجز يوم الخميس (€420). الحجز الثاني وصل للتو. أنا عند €760 بعد أسبوع واحد.',
+                testimonialResult2: '€760 بعد أسبوع واحد',
+                testimonial3: 'عمري 56 وبالكاد أعرف كيفية استخدام فيسبوك. كان هذا سهلاً بشكل محرج. قائمة مرجعية خطوة بخطوة. الغرفة مباشرة، أول حجز جاء بعد 3 أيام.',
+                testimonialResult3: 'أول حجز في 3 أيام'
+            },
+            ma: {
+                dir: 'rtl',
+                pageTitle: 'حول بيتك لفلوس: €1,500 كل شهر في 72 ساعة | نظام Airbnb',
+                metaDescription: 'النظام الكامل ديال Airbnb. من بيت خاوي لأول حجز في 72 ساعة. قوالب، قوائم، أتمتة. ضمان 30 يوم.',
+                bannerText: '🔥 عرض محدود: أول 50 واحد كيشري كيحصلو على الوصول الفوري + مواد زيادة',
+                kicker: '⚡ نظام 72 ساعة',
+                headline: 'حول بيتك الخاوي ل<br><span class="highlight">€1,500 كل شهر</span><br>هاد الأسبوع',
+                subtitle: 'النظام الكامل خطوة بخطوة باش تلانسي Airbnb ديالك، تجيب أول حجز، و تأتمت 90٪ من الاستضافة. ماكاينش حاجة للخبرة.',
+                statLabel1: 'حتى أول حجز',
+                statLabel2: 'استثمار واحد',
+                statLabel3: 'إمكانية شهرية',
+                ctaText: 'جيب الوصول الفوري دابا',
+                sectionTitle1: 'عندك بيت خاوي.<br>و أربع أشياء كيخليوه خاوي.',
+                problemTitle1: '"واش الضيوف غادي يخربو ليا الدار؟"',
+                problemDesc1: 'قريتي القصص المخيفة. الحفلات. الخسارة. الكوارث. فماكتدير والو وجارك كيجيب €2,100 كل شهر من بيتو الزايد.',
+                problemTitle2: '"ماعنديش الوقت باش ندير هادشي"',
+                problemDesc2: 'بين الخدمة والحياة وكلشي، فكرة التنسيق ديال الوصول والتنضيف والرسايل كتبان متعبة.',
+                problemTitle3: '"Airbnb كيبان معقد"',
+                problemDesc3: 'شفتي منشئ القوائم ديال Airbnb. شلل الصفحة الخاوية. شنو تكتب؟ شنو الصور اللي تصور؟ كتسد التبويب.',
+                problemTitle4: '"واش المراجعات السيئة؟"',
+                problemDesc4: 'مراجعة سيئة واحدة تقدر تخرب القائمة ديالك قبل ما تبدا. فكتبقى كتسنى الإعداد "المثالي" اللي ماغاديش يجي.',
+                testimonialsTitle: 'نتائج حقيقية من ناس حقيقيين',
+                testimonial1: 'شريت هاد النظام نهار الثلاثاء. الإعلان ولى مباشر نهار الخميس. أول حجز نهار الجمعة (€340 لمدة 5 ليالي). رد الثمن ديالو. كنتمنى درت هادشي قبل عامين.',
+                testimonialResult1: '€340 في الأسبوع الأول',
+                testimonial2: '€297 كانت كتبان بزاف ولكن القائمة ديالي ولات مباشرة نهار الثلاثاء وجبت أول حجز نهار الخميس (€420). الحجز الثاني جا دابا. أنا عند €760 بعد أسبوع واحد.',
+                testimonialResult2: '€760 بعد أسبوع',
+                testimonial3: 'عندي 56 عام وبالكاد كنعرف كيفاش نستعمل فيسبوك. كان هادشي سهل بزاف. قائمة خطوة بخطوة. البيت مباشر، أول حجز جا بعد 3 أيام.',
+                testimonialResult3: 'أول حجز في 3 أيام'
+            },
+            fr: {
+                dir: 'ltr',
+                pageTitle: 'Transformez Votre Chambre en €1,500/Mois en 72 Heures | Système Airbnb',
+                metaDescription: 'Système complet d\'hébergement Airbnb. De chambre vide à première réservation en 72 heures. Modèles, listes, automation. Garantie 30 jours.',
+                bannerText: '🔥 OFFRE LIMITÉE: Les 50 premiers acheteurs obtiennent un accès instantané + matériaux bonus',
+                kicker: '⚡ Le Système de 72 Heures',
+                headline: 'Transformez Votre Chambre Libre en<br><span class="highlight">€1,500/Mois</span><br>Ce Weekend',
+                subtitle: 'Le système complet étape par étape pour lancer votre Airbnb, obtenir votre première réservation et automatiser 90% de l\'hébergement. Aucune expérience requise.',
+                statLabel1: 'Jusqu\'à Première Réservation',
+                statLabel2: 'Investissement Unique',
+                statLabel3: 'Potentiel Mensuel',
+                ctaText: 'Obtenir L\'Accès Instantané',
+                sectionTitle1: 'Vous Avez Une Chambre Vide.<br>Et Quatre Peurs Qui La Gardent Vide.',
+                problemTitle1: '"Et si les invités détruisent ma maison?"',
+                problemDesc1: 'Vous avez lu les histoires d\'horreur. Fêtes. Dégâts. Désastres. Alors vous ne faites rien pendant que votre voisin gagne €2,100/mois avec SA chambre libre.',
+                problemTitle2: '"Je n\'ai pas le temps de gérer ça"',
+                problemDesc2: 'Entre le travail, la vie et tout le reste, l\'idée de coordonner les arrivées, le ménage et les messages des invités semble épuisante.',
+                problemTitle3: '"Configurer Airbnb semble compliqué"',
+                problemDesc3: 'Vous avez regardé le créateur d\'annonces d\'Airbnb. Paralysie de la page blanche. Que écrire? Quelles photos prendre? Vous fermez l\'onglet.',
+                problemTitle4: '"Et les mauvais avis?"',
+                problemDesc4: 'Un mauvais avis pourrait couler votre annonce avant même qu\'elle ne commence. Alors vous attendez la configuration "parfaite" qui ne vient jamais.',
+                testimonialsTitle: 'Résultats Réels de Vraies Personnes',
+                testimonial1: 'J\'ai acheté ce kit mardi dernier. L\'annonce est passée en direct jeudi. Première réservation vendredi (€340 pour 5 nuits). Déjà rentabilisé. J\'aurais aimé faire ça il y a 2 ans.',
+                testimonialResult1: '€340 la première semaine',
+                testimonial2: '€297 semblait beaucoup mais mon annonce est passée en direct mardi et j\'ai eu ma première réservation jeudi (€420). Deuxième réservation vient d\'arriver. Je suis à €760 après une semaine.',
+                testimonialResult2: '€760 après une semaine',
+                testimonial3: 'J\'ai 56 ans et je sais à peine utiliser Facebook. C\'était embarrassant de facilité. Liste étape par étape. Chambre en ligne, première réservation 3 jours plus tard.',
+                testimonialResult3: 'Première réservation en 3 jours'
+            },
+            de: {
+                dir: 'ltr',
+                pageTitle: 'Verwandeln Sie Ihr Gästezimmer in €1.500/Monat in 72 Stunden | Airbnb System',
+                metaDescription: 'Komplettes Airbnb-Hosting-System. Vom leeren Zimmer zur ersten Buchung in 72 Stunden. Vorlagen, Checklisten, Automatisierung. 30 Tage Garantie.',
+                bannerText: '🔥 ZEITLICH BEGRENZT: Die ersten 50 Käufer erhalten sofortigen Zugang + Bonusmaterialien',
+                kicker: '⚡ Das 72-Stunden-System',
+                headline: 'Verwandeln Sie Ihr Gästezimmer in<br><span class="highlight">€1.500/Monat</span><br>Dieses Wochenende',
+                subtitle: 'Das komplette Schritt-für-Schritt-System, um Ihr Airbnb zu starten, Ihre erste Buchung zu erhalten und 90% des Hostings zu automatisieren. Keine Erfahrung erforderlich.',
+                statLabel1: 'Bis Zur Ersten Buchung',
+                statLabel2: 'Einmalige Investition',
+                statLabel3: 'Monatliches Potenzial',
+                ctaText: 'Sofortigen Zugang Erhalten',
+                sectionTitle1: 'Sie Haben Ein Leeres Zimmer.<br>Und Vier Ängste, Die Es Leer Halten.',
+                problemTitle1: '"Was ist, wenn Gäste mein Haus zerstören?"',
+                problemDesc1: 'Sie haben die Horrorgeschichten gelesen. Partys. Schäden. Katastrophen. Also tun Sie nichts, während Ihr Nachbar €2.100/Monat mit SEINEM Gästezimmer verdient.',
+                problemTitle2: '"Ich habe keine Zeit, das zu verwalten"',
+                problemDesc2: 'Zwischen Arbeit, Leben und allem anderen klingt die Idee, Check-ins, Reinigung und Gästenachrichten zu koordinieren, erschöpfend.',
+                problemTitle3: '"Airbnb einrichten scheint kompliziert"',
+                problemDesc3: 'Sie haben sich den Airbnb-Inseratersteller angesehen. Lähmung der leeren Seite. Was schreiben? Welche Fotos machen? Sie schließen den Tab.',
+                problemTitle4: '"Was ist mit schlechten Bewertungen?"',
+                problemDesc4: 'Eine schlechte Bewertung könnte Ihr Inserat versenken, bevor es überhaupt beginnt. Also warten Sie auf das "perfekte" Setup, das nie kommt.',
+                testimonialsTitle: 'Echte Ergebnisse Von Echten Menschen',
+                testimonial1: 'Habe dieses Kit letzten Dienstag gekauft. Inserat ging Donnerstag live. Erste Buchung Freitag (€340 für 5 Nächte). Hat sich bereits amortisiert. Wünschte, ich hätte das vor 2 Jahren gemacht.',
+                testimonialResult1: '€340 in erster Woche',
+                testimonial2: '€297 fühlten sich viel an, aber mein Inserat ging Dienstag live und ich bekam meine erste Buchung Donnerstag (€420). Zweite Buchung kam gerade rein. Ich bin bei €760 nach einer Woche.',
+                testimonialResult2: '€760 nach einer Woche',
+                testimonial3: 'Ich bin 56 und weiß kaum, wie man Facebook benutzt. Das war peinlich einfach. Schritt-für-Schritt-Checkliste. Zimmer ist live, erste Buchung kam 3 Tage später.',
+                testimonialResult3: 'Erste Buchung in 3 Tagen'
+            },
+            es: {
+                dir: 'ltr',
+                pageTitle: 'Convierte Tu Habitación Libre en €1.500/Mes en 72 Horas | Sistema Airbnb',
+                metaDescription: 'Sistema completo de alojamiento Airbnb. De habitación vacía a primera reserva en 72 horas. Plantillas, listas, automatización. Garantía de 30 días.',
+                bannerText: '🔥 OFERTA LIMITADA: Los primeros 50 compradores obtienen acceso instantáneo + materiales extra',
+                kicker: '⚡ El Sistema de 72 Horas',
+                headline: 'Convierte Tu Habitación Libre en<br><span class="highlight">€1.500/Mes</span><br>Este Fin de Semana',
+                subtitle: 'El sistema completo paso a paso para lanzar tu Airbnb, obtener tu primera reserva y automatizar el 90% del alojamiento. No se requiere experiencia.',
+                statLabel1: 'Hasta Primera Reserva',
+                statLabel2: 'Inversión Única',
+                statLabel3: 'Potencial Mensual',
+                ctaText: 'Obtener Acceso Instantáneo',
+                sectionTitle1: 'Tienes Una Habitación Vacía.<br>Y Cuatro Miedos Que La Mantienen Vacía.',
+                problemTitle1: '"¿Y si los huéspedes destruyen mi casa?"',
+                problemDesc1: 'Has leído las historias de terror. Fiestas. Daños. Desastres. Así que no haces nada mientras tu vecino gana €2.100/mes con SU habitación libre.',
+                problemTitle2: '"No tengo tiempo para gestionar esto"',
+                problemDesc2: 'Entre el trabajo, la vida y todo lo demás, la idea de coordinar registros, limpieza y mensajes de huéspedes suena agotadora.',
+                problemTitle3: '"Configurar Airbnb parece complicado"',
+                problemDesc3: 'Has mirado el creador de anuncios de Airbnb. Parálisis de página en blanco. ¿Qué escribir? ¿Qué fotos tomar? Cierras la pestaña.',
+                problemTitle4: '"¿Qué pasa con las malas reseñas?"',
+                problemDesc4: 'Una mala reseña podría hundir tu anuncio antes de que comience. Así que esperas la configuración "perfecta" que nunca llega.',
+                testimonialsTitle: 'Resultados Reales de Personas Reales',
+                testimonial1: 'Compré este kit el martes pasado. El anuncio se publicó el jueves. Primera reserva el viernes (€340 por 5 noches). Ya se pagó solo. Ojalá hubiera hecho esto hace 2 años.',
+                testimonialResult1: '€340 en primera semana',
+                testimonial2: '€297 parecía mucho pero mi anuncio se publicó el martes y obtuve mi primera reserva el jueves (€420). La segunda reserva acaba de llegar. Estoy en €760 después de una semana.',
+                testimonialResult2: '€760 después de una semana',
+                testimonial3: 'Tengo 56 años y apenas sé usar Facebook. Esto fue vergonzosamente fácil. Lista paso a paso. Habitación publicada, primera reserva 3 días después.',
+                testimonialResult3: 'Primera reserva en 3 días'
+            }
+        };
+
+        // Detect user language from browser
+        function detectLanguage() {
+            const browserLang = navigator.language || navigator.userLanguage;
+            const langCode = browserLang.split('-')[0];
+            
+            // Special handling for Moroccan Arabic
+            if (browserLang === 'ar-MA') return 'ma';
+            
+            // Return detected language if available, otherwise default to English
+            return translations[langCode] ? langCode : 'en';
+        }
+
+        // Switch language function
+        function switchLanguage(lang) {
+            const content = translations[lang];
+            if (!content) return;
+            
+            // Update HTML dir attribute
+            document.body.setAttribute('dir', content.dir);
+            document.documentElement.setAttribute('lang', lang);
+            
+            // Update meta tags
+            document.getElementById('page-title').textContent = content.pageTitle;
+            document.getElementById('page-description').setAttribute('content', content.metaDescription);
+            document.getElementById('og-title').setAttribute('content', content.pageTitle);
+            document.getElementById('og-description').setAttribute('content', content.metaDescription);
+            document.getElementById('twitter-title').setAttribute('content', content.pageTitle);
+            document.getElementById('twitter-description').setAttribute('content', content.metaDescription);
+            
+            // Update banner
+            document.querySelector('.banner-text').textContent = content.bannerText;
+            
+            // Update hero
+            document.querySelector('.kicker-text').textContent = content.kicker;
+            document.querySelector('.hero-headline').innerHTML = content.headline;
+            document.querySelector('.subtitle-text').textContent = content.subtitle;
+            
+            // Update stats
+            document.querySelector('.stat-label-1').textContent = content.statLabel1;
+            document.querySelector('.stat-label-2').textContent = content.statLabel2;
+            document.querySelector('.stat-label-3').textContent = content.statLabel3;
+            
+            // Update CTA
+            document.querySelector('.cta-text').textContent = content.ctaText;
+            
+            // Update problem section
+            document.querySelector('.section-title-1').innerHTML = content.sectionTitle1;
+            document.querySelector('.problem-title-1').textContent = content.problemTitle1;
+            document.querySelector('.problem-desc-1').textContent = content.problemDesc1;
+            document.querySelector('.problem-title-2').textContent = content.problemTitle2;
+            document.querySelector('.problem-desc-2').textContent = content.problemDesc2;
+            document.querySelector('.problem-title-3').textContent = content.problemTitle3;
+            document.querySelector('.problem-desc-3').textContent = content.problemDesc3;
+            document.querySelector('.problem-title-4').textContent = content.problemTitle4;
+            document.querySelector('.problem-desc-4').textContent = content.problemDesc4;
+            
+            // Update testimonials
+            document.querySelector('.testimonials-title').textContent = content.testimonialsTitle;
+            document.querySelector('.testimonial-1').textContent = content.testimonial1;
+            document.querySelector('.testimonial-result-1').textContent = content.testimonialResult1;
+            document.querySelector('.testimonial-2').textContent = content.testimonial2;
+            document.querySelector('.testimonial-result-2').textContent = content.testimonialResult2;
+            document.querySelector('.testimonial-3').textContent = content.testimonial3;
+            document.querySelector('.testimonial-result-3').textContent = content.testimonialResult3;
+            
+            // Update language selector
+            document.getElementById('language-selector').value = lang;
+            
+            // Store preference
+            localStorage.setItem('preferredLanguage', lang);
+        }
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('preferredLanguage');
+            const lang = savedLang || detectLanguage();
+            switchLanguage(lang);
+        });
+    </script>
+</body>
+</html>
